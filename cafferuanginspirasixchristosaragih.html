@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffe Ruang Inspirasi | Aesthetic & Cozy</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .glass { background: rgba(255, 255, 255, 0.8); backdrop-filter: blur(10px); }
+        .promo-card { background: linear-gradient(135deg, #78350f 0%, #451a03 100%); }
+        .menu-item:hover img { transform: scale(1.1); }
+    </style>
+</head>
+<body class="bg-[#FDFCFB] text-slate-900">
+
+    <nav class="fixed w-full z-50 glass border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
+            <div class="flex items-center gap-2">
+                <div class="w-10 h-10 bg-amber-900 rounded-xl flex items-center justify-center text-white font-bold text-xl">R</div>
+                <span class="text-xl font-extrabold tracking-tighter uppercase">Ruang Inspirasi</span>
+            </div>
+            <div class="hidden md:flex gap-10 text-sm font-bold uppercase tracking-widest text-gray-500">
+                <a href="#home" class="hover:text-amber-700 transition">Beranda</a>
+                <a href="#about" class="hover:text-amber-700 transition">Cerita Kami</a>
+                <a href="#menu" class="hover:text-amber-700 transition">Menu</a>
+                <a href="#fasilitas" class="hover:text-amber-700 transition">Fasilitas</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1920&q=80" class="absolute inset-0 w-full h-full object-cover" alt="Cafe Background">
+        <div class="absolute inset-0 bg-black/40"></div>
+        <div class="relative z-10 text-center text-white px-6">
+            <span class="inline-block px-4 py-1 border border-white/30 rounded-full text-xs font-bold uppercase tracking-[0.3em] mb-6 backdrop-blur-md">Premium Coffee Experience</span>
+            <h1 class="text-6xl md:text-8xl font-extrabold mb-6 tracking-tighter">Tuangkan Ide,<br>Temukan Inspirasi.</h1>
+            <p class="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto mb-10 font-light">Lebih dari sekadar kafe. Sebuah ruang tempat kreativitas bertemu dengan aroma kopi terbaik di Bekasi.</p>
+            <a href="#menu" class="bg-white text-black px-10 py-4 rounded-full font-bold hover:bg-amber-100 transition shadow-2xl">Jelajahi Menu</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-24 max-w-7xl mx-auto px-6">
+        <div class="grid md:grid-cols-2 gap-16 items-center">
+            <div class="relative">
+                <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=800&q=80" class="rounded-3xl shadow-2xl relative z-10" alt="Suasana Cafe">
+                <div class="absolute -bottom-6 -right-6 w-64 h-64 bg-amber-100 rounded-3xl -z-0"></div>
+            </div>
+            <div>
+                <span class="text-amber-700 font-bold uppercase tracking-widest text-sm">About Ruang Inspirasi</span>
+                <h2 class="text-4xl font-extrabold mt-4 mb-8 leading-tight">Tempat di Mana Setiap Cangkir Memiliki Cerita.</h2>
+                <div class="space-y-6 text-gray-600 leading-relaxed">
+                    <p>Berawal dari sebuah visi sederhana di Bekasi, <strong>Caffe Ruang Inspirasi</strong> didirikan untuk menjadi wadah bagi para kreator, mahasiswa, dan profesional yang membutuhkan ketenangan di tengah hiruk pikuk kota. Kami percaya bahwa lingkungan yang nyaman adalah kunci lahirnya ide-ide besar.</p>
+                    <p>Kami sangat menjaga kualitas setiap biji kopi yang kami seduh. Dengan dukungan barista berpengalaman dan biji pilihan nusantara, setiap tegukan dirancang untuk membangkitkan semangatmu. Di sini, kamu tidak hanya sekadar duduk, tapi juga membangun koneksi dan inspirasi baru.</p>
+                </div>
+                <div class="mt-10 flex gap-8">
+                    <div><h5 class="text-3xl font-extrabold text-amber-900">4.9</h5><p class="text-xs text-gray-400 uppercase font-bold">Rating Google</p></div>
+                    <div class="w-[1px] bg-gray-200"></div>
+                    <div><h5 class="text-3xl font-extrabold text-amber-900">500+</h5><p class="text-xs text-gray-400 uppercase font-bold">Monthly Visitors</p></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 px-6">
+        <div class="max-w-7xl mx-auto promo-card rounded-[2rem] p-10 md:p-16 flex flex-col md:flex-row justify-between items-center overflow-hidden relative">
+            <div class="z-10 text-white md:max-w-md text-center md:text-left">
+                <span class="bg-amber-500 text-xs font-bold px-3 py-1 rounded-full uppercase">Limited Offer</span>
+                <h3 class="text-4xl font-extrabold mt-4 mb-4">Paket Inspirasi Pagi</h3>
+                <p class="text-amber-100/80 mb-8 font-light">Nikmati kombinasi <strong>Signature Coffee + Butter Croissant</strong> hanya seharga <strong>Rp 35.000</strong>. Tersedia setiap hari jam 08.00 - 11.00 WIB.</p>
+                <button class="bg-white text-amber-900 px-8 py-3 rounded-xl font-extrabold shadow-xl">Klaim Promo</button>
+            </div>
+            <div class="mt-10 md:mt-0 relative z-10">
+                <img src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=500&q=80" class="w-80 h-80 object-cover rounded-2xl shadow-2xl rotate-3" alt="Coffee and Croissant">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 text-center mb-16">
+            <h2 class="text-4xl font-extrabold mb-4">Daftar Menu Pilihan</h2>
+            <p class="text-gray-500">Dikurasi khusus untuk menemani waktu produktifmu.</p>
+        </div>
+
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-3 gap-8">
+            <div class="space-y-6">
+                <h4 class="text-lg font-bold flex items-center gap-2 border-b-2 border-amber-900 pb-2"><i class="fas fa-mug-hot"></i> Coffee Selection</h4>
+                <div class="group menu-item flex items-center gap-4 bg-gray-50 p-3 rounded-2xl transition hover:bg-white hover:shadow-xl">
+                    <div class="w-16 h-16 rounded-xl overflow-hidden shadow-inner flex-shrink-0">
+                        <img src="https://images.unsplash.com/photo-1541167760496-162955ed8a9f?auto=format&fit=crop&w=200&q=80" class="w-full h-full object-cover transition duration-500">
+                    </div>
+                    <div class="flex-grow">
+                        <p class="font-bold text-sm">Kopi Gula Aren (Keren)</p>
+                        <p class="text-xs text-amber-700">Rp 18.000</p>
+                    </div>
+                </div>
+                <div class="group menu-item flex items-center gap-4 bg-gray-50 p-3 rounded-2xl transition hover:bg-white hover:shadow-xl">
+                    <div class="w-16 h-16 rounded-xl overflow-hidden shadow-inner flex-shrink-0">
+                        <img src="https://images.unsplash.com/photo-1572286258217-40142c1c6a70?auto=format&fit=crop&w=200&q=80" class="w-full h-full object-cover transition duration-500">
+                    </div>
+                    <div class="flex-grow">
+                        <p class="font-bold text-sm">Es Kopi Butterscotch</p>
+                        <p class="text-xs text-amber-700">Rp 18.000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <h4 class="text-lg font-bold flex items-center gap-2 border-b-2 border-amber-900 pb-2"><i class="fas fa-utensils"></i> Light Bites</h4>
+                <div class="group menu-item flex items-center gap-4 bg-gray-50 p-3 rounded-2xl transition hover:bg-white hover:shadow-xl">
+                    <div class="w-16 h-16 rounded-xl overflow-hidden shadow-inner flex-shrink-0">
+                        <img src="https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=200&q=80" class="w-full h-full object-cover transition duration-500">
+                    </div>
+                    <div class="flex-grow">
+                        <p class="font-bold text-sm">Smoke Beef & Cheese Toast</p>
+                        <p class="text-xs text-amber-700">Rp 22.000</p>
+                    </div>
+                </div>
+                <div class="group menu-item flex items-center gap-4 bg-gray-50 p-3 rounded-2xl transition hover:bg-white hover:shadow-xl">
+                    <div class="w-16 h-16 rounded-xl overflow-hidden shadow-inner flex-shrink-0">
+                        <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484ec?auto=format&fit=crop&w=200&q=80" class="w-full h-full object-cover transition duration-500">
+                    </div>
+                    <div class="flex-grow">
+                        <p class="font-bold text-sm">Choco Crunchy Toast</p>
+                        <p class="text-xs text-amber-700">Rp 13.000</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="space-y-6">
+                <h4 class="text-lg font-bold flex items-center gap-2 border-b-2 border-amber-900 pb-2"><i class="fas fa-glass-whiskey"></i> Non-Coffee</h4>
+                <div class="group menu-item flex items-center gap-4 bg-gray-50 p-3 rounded-2xl transition hover:bg-white hover:shadow-xl">
+                    <div class="w-16 h-16 rounded-xl overflow-hidden shadow-inner flex-shrink-0">
+                        <img src="https://images.unsplash.com/photo-1553909489-cd47e0907980?auto=format&fit=crop&w=200&q=80" class="w-full h-full object-cover transition duration-500">
+                    </div>
+                    <div class="flex-grow">
+                        <p class="font-bold text-sm">Ricoffee Fresh Milk</p>
+                        <p class="text-xs text-amber-700">Rp 18.000</p>
+                    </div>
+                </div>
+                <div class="group menu-item flex items-center gap-4 bg-gray-50 p-3 rounded-2xl transition hover:bg-white hover:shadow-xl">
+                    <div class="w-16 h-16 rounded-xl overflow-hidden shadow-inner flex-shrink-0">
+                        <img src="https://images.unsplash.com/photo-1578314675249-a6910f80cc4e?auto=format&fit=crop&w=200&q=80" class="w-full h-full object-cover transition duration-500">
+                    </div>
+                    <div class="flex-grow">
+                        <p class="font-bold text-sm">Coklat Murni</p>
+                        <p class="text-xs text-amber-700">Rp 17.000</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="fasilitas" class="py-24 bg-[#F4F1EE]">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-3xl font-extrabold text-center mb-16 uppercase tracking-widest">Fasilitas Utama</h2>
+            <div class="grid md:grid-cols-4 gap-4">
+                <div class="bg-white p-8 rounded-[2rem] text-center shadow-sm border border-gray-100 hover:-translate-y-2 transition">
+                    <i class="fas fa-wifi text-3xl text-amber-700 mb-4"></i>
+                    <h5 class="font-bold">High Speed WiFi</h5>
+                    <p class="text-xs text-gray-400 mt-2 italic">Aman untuk Zoom & Streaming</p>
+                </div>
+                <div class="bg-white p-8 rounded-[2rem] text-center shadow-sm border border-gray-100 hover:-translate-y-2 transition">
+                    <i class="fas fa-plug text-3xl text-amber-700 mb-4"></i>
+                    <h5 class="font-bold">Power Outlets</h5>
+                    <p class="text-xs text-gray-400 mt-2 italic">Tersedia di Setiap Meja</p>
+                </div>
+                <div class="bg-white p-8 rounded-[2rem] text-center shadow-sm border border-gray-100 hover:-translate-y-2 transition">
+                    <i class="fas fa-leaf text-3xl text-amber-700 mb-4"></i>
+                    <h5 class="font-bold">Smoking Area</h5>
+                    <p class="text-xs text-gray-400 mt-2 italic">Area Outdoor Sejuk</p>
+                </div>
+                <div class="bg-white p-8 rounded-[2rem] text-center shadow-sm border border-gray-100 hover:-translate-y-2 transition">
+                    <i class="fas fa-music text-3xl text-amber-700 mb-4"></i>
+                    <h5 class="font-bold">Chill Ambience</h5>
+                    <p class="text-xs text-gray-400 mt-2 italic">Playlist Musik Menenangkan</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="lokasi" class="bg-zinc-900 text-white pt-20 pb-10 px-6">
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-16 mb-20">
+            <div>
+                <h2 class="text-4xl font-bold mb-6">Kunjungi Kami di Bumi Anggrek</h2>
+                <p class="text-gray-400 mb-8 leading-relaxed">Kami berlokasi di pusat strategis Karangsatria. Tempat yang mudah dijangkau untuk pelarian sejenak dari rutinitas.</p>
+                <div class="space-y-4">
+                    <div class="flex gap-4">
+                        <i class="fas fa-clock text-amber-500 mt-1"></i>
+                        <div><p class="font-bold">Jam Operasional</p><p class="text-gray-400 text-sm">08:00 - 23:00 (Setiap Hari)</p></div>
+                    </div>
+                    <div class="flex gap-4">
+                        <i class="fas fa-map-marked-alt text-amber-500 mt-1"></i>
+                        <div><p class="font-bold">Alamat Lengkap</p><p class="text-gray-400 text-sm">Jl. Raya Bumi Anggrek, Karangsatria, Kab. Bekasi</p></div>
+                    </div>
+                </div>
+            </div>
+            <div class="h-80 rounded-[2.5rem] overflow-hidden grayscale contrast-125 border-4 border-zinc-800">
+                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.425!2d107.037!3d-6.216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698b0054cdadc9%3A0x4bc56262d185ede6!2sCafe%20Ruang%20Inspirasi!5e0!3m2!1sen!2sid!4v1620000000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto pt-10 border-t border-zinc-800 flex justify-between items-center text-sm text-gray-500">
+            <p>&copy; 2026 Caffe Ruang Inspirasi. Final Project TIK.</p>
+            <div class="flex gap-4 text-xl">
+                <i class="fab fa-instagram hover:text-white cursor-pointer"></i>
+                <i class="fab fa-whatsapp hover:text-white cursor-pointer"></i>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
